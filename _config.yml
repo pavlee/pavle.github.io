@@ -1,0 +1,92 @@
+### Site Settings ###
+title               : Pavle Milic
+description         : >-
+                      Java Fullstack Developer experienced in developing with Spring Boot, VueJS and Java Enterprise Stack
+url                 : https://pavlee.github.io/
+baseurl             : ""
+repository          : pavlee/pavle.github.io
+remote_theme        : YoussefRaafatNasry/portfolYOU
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/404.html
+
+### Author Info ###
+author:
+  name              : Pavle Milic
+  image             : https://pyxis.nymag.com/v1/imgs/862/a67/f604201b37a3ea6f2dffdf9b790fca0d47-24-the-office-book-parrot-1.rhorizontal.w1200.jpg
+# behance           : your_username
+# dribbble          : your_username
+  email             : pavlee43@gmail.com
+# facebook          : your_username
+  github            : pavlee
+# gitlab            : your_username
+  instagram         : pavle.milic
+# kaggle            : your_username
+  linkedin          : pavlemilic
+# medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+  twitter           : realPavleMilic
+# vimeo             : your_username
+# youtube           : your_channel_name
+
+
+### Posts ###
+# permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name                          # For Documentation Only
+
+
+### Disqus ###
+# disqus: your-short-name-disqus                          # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

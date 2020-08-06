@@ -1,0 +1,11 @@
+- name: Maven
+  percentage: 100
+  color: danger
+
+- name: Eclipse
+  percentage: 100
+  color: danger
+  
+- name: GitLab
+  percentage: 90
+  color: success

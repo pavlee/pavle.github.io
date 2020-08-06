@@ -1,0 +1,11 @@
+- name: Docker
+  percentage: 90
+  color: success
+
+- name: CI/CD
+  percentage: 70
+  color: dark
+  
+- name: Kubernetes
+  percentage: 70
+  color: dark

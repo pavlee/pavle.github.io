@@ -1,0 +1,15 @@
+- name: Java
+  percentage: 100
+  color: danger
+
+- name: HTML5/CSS3
+  percentage: 90
+  color: success
+
+- name: JavaScript
+  percentage: 80
+  color: dark
+  
+- name: SQL
+  percentage: 90
+  color: success
