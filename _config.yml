@@ -2,8 +2,7 @@
 title               : Pavle Milic
 description         : >-
                       Java Fullstack Developer experienced in developing with Spring Boot, VueJS and Java Enterprise Stack
-url                 : https://pavlee.github.io/
-baseurl             : ""
+baseurl             :
 repository          : pavlee/pavle.github.io
 remote_theme        : YoussefRaafatNasry/portfolYOU
 
